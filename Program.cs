@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Leo_Notepad
+namespace Student_Portal
 {
     static class Program
     {
@@ -14,9 +14,9 @@ namespace Leo_Notepad
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mainform());
+           // Application.EnableVisualStyles();
+           // Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new viewWindow());
         }
     }
 }
